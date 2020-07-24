@@ -1,0 +1,92 @@
+{
+    "views": [
+        {
+            "view": "listView",
+            "id": "listView_1",
+            "start_percent": "15",
+            "top_percent": "5",
+            "end_percent": "80",
+            "bottom_percent": "40"
+        },
+        {
+            "view": "imageView",
+            "id": "imageView_1",
+            "start_percent": "60",
+            "top_percent": "65",
+            "end_percent": "95",
+            "bottom_percent": "85"
+        },
+        {
+            "view": "editText",
+            "id": "editText_1",
+            "start_percent": "10",
+            "top_percent": "45",
+            "end_percent": "70",
+            "bottom_percent": "60"
+        },
+        {
+            "view": "button",
+            "id": "button_1",
+            "start_percent": "10",
+            "top_percent": "90",
+            "end_percent": "35",
+            "bottom_percent": "100"
+        },
+        {
+            "view": "button",
+            "id": "button_2",
+            "start_percent": "40",
+            "top_percent": "90",
+            "end_percent": "70",
+            "bottom_percent": "100"
+        },
+        {
+            "view": "button",
+            "id": "button_3",
+            "start_percent": "75",
+            "top_percent": "90",
+            "end_percent": "100",
+            "bottom_percent": "100"
+        },
+        {
+            "view": "comboBox",
+            "id": "comboBox_1",
+            "start_percent": "70",
+            "top_percent": "50",
+            "end_percent": "90",
+            "bottom_percent": "55"
+        },
+        {
+            "view": "slidBar",
+            "id": "slidBar_1",
+            "start_percent": "30",
+            "top_percent": "65",
+            "end_percent": "55",
+            "bottom_percent": "70"
+        },
+        {
+            "view": "slidBar",
+            "id": "slidBar_2",
+            "start_percent": "30",
+            "top_percent": "75",
+            "end_percent": "55",
+            "bottom_percent": "80"
+        },
+        {
+            "view": "radioButton_off",
+            "id": "radioButton_off_1",
+            "start_percent": "10",
+            "top_percent": "65",
+            "end_percent": "20",
+            "bottom_percent": "70"
+        },
+        {
+            "view": "radioButton_off",
+            "id": "radioButton_off_2",
+            "start_percent": "10",
+            "top_percent": "75",
+            "end_percent": "20",
+            "bottom_percent": "85"
+        }
+    ]
+}
