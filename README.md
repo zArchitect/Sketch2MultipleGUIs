@@ -1,4 +1,4 @@
-# Draft2AndroidGUI
+# Sketch2AndroidGUI
 
 Generating real GUI from a hand-drawn mock-ups. The GUI can be generated for web applications, desktop applications using CSharp, or Android applications. It uses deep learning to convert hand-drawn mobile GUI mockups and converts them into working mobile app. The input is just an image captured for the hand-draw mockups and generates the corresponding mobile app GUI.
 
@@ -8,6 +8,10 @@ Heavily inspired by Ashwin Kumar's blog post, For more information, check out hi
 https://blog.insightdatascience.com/automated-front-end-development-using-deep-learning-3169dd086e82
 
 # Model architecture
+
+The architecture of the developed system is shown in the following figure.
+
+<img src="https://i.imgur.com/IN2yVuI.png" title="System architecture" alt="System architecture">
 
 # Download the data
 
@@ -48,7 +52,7 @@ https://blog.insightdatascience.com/automated-front-end-development-using-deep-l
 
 ***INSERT ANOTHER GRAPHIC HERE***
 
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
+[![INSERT YOUR GRAPHIC HERE](https://i.imgur.com/K6QSfcR.jpg]()
 
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo
@@ -66,7 +70,7 @@ https://blog.insightdatascience.com/automated-front-end-development-using-deep-l
 
 **Recordit**
 
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
+![Recordit GIF](https://i.imgur.com/IN2yVuI.png)
 
 **ttystudio**
 
