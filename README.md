@@ -73,8 +73,6 @@ The architecture of the developed system is shown in the following figure.
 
 **ttystudio**
 
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
-
 ---
 
 ## Table of Contents (Optional)
