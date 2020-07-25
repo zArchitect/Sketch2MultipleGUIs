@@ -72,17 +72,6 @@ let generateProject = project => {
 
 > GIF Tools
 
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
-
-**Recordit**
-
-![Recordit GIF](https://i.imgur.com/IN2yVuI.png)
-
-**ttystudio**
-
----
-
 ## Table of Contents (Optional)
 
 > If your `README` has a lot of info, section headers might be nice.
