@@ -16,9 +16,9 @@ The architecture of the developed system is shown in the following figure.
 
 # Running demo
 
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
+<img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
 
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
+<img src="https://i.imgur.com/A1zPvWz.png" title="Validation Results" alt="Validation Results">
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
