@@ -6,7 +6,7 @@ Sketch2MultipleGUIs is a project developed to convert hand-drawn mock-ups to mul
 
 The architecture of the developed system is shown in the following figure.
 
-<img src="https://i.imgur.com/IN2yVuI.png" title="System architecture" alt="System architecture">
+<img src="https://i.imgur.com/ztxVjsL.png" title="System architecture" alt="System architecture">
 
 # Download the data
 
