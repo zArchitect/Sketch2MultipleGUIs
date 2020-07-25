@@ -14,15 +14,22 @@ The architecture of the developed system is shown in the following figure.
 
 # Load pre-trained weights
 
+# Training custom model
+<img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
+<img src="https://i.imgur.com/A1zPvWz.png" title="Validation Results" alt="Validation Results">
+
+# Model testing for classification
+<img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
+
+# Postprocessing
+
+# GUI generation
+
 # Running demo
 
-<img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
-
-<img src="https://i.imgur.com/A1zPvWz.png" title="Validation Results" alt="Validation Results">
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
-<img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
 
 # Repository Title Goes Here
 
