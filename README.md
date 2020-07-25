@@ -4,9 +4,6 @@ Generating real GUI from a hand-drawn mock-ups. The GUI can be generated for web
 
 The models are based on <a href="https://github.com/ultralytics/yolov5" target="_blank">YOLOv5</a>
 
-Heavily inspired by Ashwin Kumar's blog post, For more information, check out his post: Automating front-end development with deep learning
-https://blog.insightdatascience.com/automated-front-end-development-using-deep-learning-3169dd086e82
-
 # Model architecture
 
 The architecture of the developed system is shown in the following figure.
