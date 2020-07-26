@@ -145,23 +145,10 @@ $ ./java -jar generator.jar [INPUT_TYPE] [INPUT_PATH] [OUTPUT_PATH]
 
 > Example
 
-- lets suppose we have file "/home/test/a.json" and we want android output for this file
+- lets suppose we have file "/home/test/app.json" and we want android output for this file
 
 ```shell
-$ ./java -jar generator.jar --andriod /home/test/a.json CODE
+$ ./java -jar generator.jar --andriod /home/test/app.json CODE
 ```
 
----
-
-# Running demo
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
 ---
