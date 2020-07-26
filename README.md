@@ -35,11 +35,11 @@ let generateProject = project => {
 };
 ```
 
----
-
 ## Model testing for classification
 
 <img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
+
+---
 
 # Postprocessing
 
@@ -85,9 +85,11 @@ $ cd bin
 $ ./postprocessor --android /home/Downloads/test.viw
 ```
 
-# GUI Generation
+---
 
 # GUI generation
+
+---
 
 # Running demo
 ```javascript
