@@ -8,6 +8,8 @@ The architecture of this project is shown in the following figure.
 
 <img src="https://i.imgur.com/ztxVjsL.png" title="System architecture" alt="System architecture">
 
+---
+
 # Hand-drawn mock-up recognition 
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
