@@ -15,10 +15,6 @@ The architecture of this project is shown in the following figure.
 
 # Hand-drawn mock-up recognition 
 
-***INSERT GRAPHIC HERE (include hyperlink in image)***
-
-**Badges will go here**
-
 <img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
 
 ### Step 1
