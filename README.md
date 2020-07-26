@@ -8,13 +8,21 @@ The architecture of this project is shown in the following figure.
 
 <img src="https://i.imgur.com/ztxVjsL.png" title="System architecture" alt="System architecture">
 
-# Download the data
-
-# Load pre-trained weights
-
-# Training custom model
+# Hand-drawn mock-up recognition 
 <img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
 <img src="https://i.imgur.com/A1zPvWz.png" title="Validation Results" alt="Validation Results">
+
+# Postprocessing
+The postprocessing part is responsible for reading the output files of the recognition part and converts it to json file depending on chosen target language.
+
+> Prerequisites
+
+gcc compiler(build version 8.3.0)
+cmake build tool
+Linux System (ubuntu, debian are tested)
+boost library
+
+# GUI Generation
 
 # Model testing for classification
 <img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
