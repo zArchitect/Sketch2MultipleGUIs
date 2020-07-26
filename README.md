@@ -17,10 +17,10 @@ The postprocessing part is responsible for reading the output files of the recog
 
 > Prerequisites
 
-gcc compiler(build version 8.3.0)
-cmake build tool
-Linux System (ubuntu, debian are tested)
-boost library
+- gcc compiler(build version 8.3.0)
+- cmake build tool
+- Linux System (ubuntu, debian are tested)
+- boost library
 
 # GUI Generation
 
