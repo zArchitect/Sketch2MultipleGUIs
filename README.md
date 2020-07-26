@@ -1,5 +1,5 @@
 
-<img src="https://i.imgur.com/X5gjxpA.png" title="Sketch2MultipleGUIs" alt="Sketch2MultipleGUIs">
+<img src="https://i.imgur.com/WWvlw91.png" title="Sketch2MultipleGUIs" alt="Sketch2MultipleGUIs">
 
 # Sketch2MultipleGUIs
 
