@@ -9,10 +9,17 @@ The architecture of this project is shown in the following figure.
 <img src="https://i.imgur.com/ztxVjsL.png" title="System architecture" alt="System architecture">
 
 # Hand-drawn mock-up recognition 
+
 <img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
+
 <img src="https://i.imgur.com/A1zPvWz.png" title="Validation Results" alt="Validation Results">
 
+# Model testing for classification
+
+<img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
+
 # Postprocessing
+
 The postprocessing part is responsible for reading the output files of the recognition part and converts it to json file depending on chosen target language.
 
 > Prerequisites
@@ -26,7 +33,7 @@ The postprocessing part is responsible for reading the output files of the recog
 
 1- clone the project to your device and unzip it.
 
-2- open the compiler directory suppose it called EQUALIZER_HOME and create directory called build then open it in the terminal.
+2- open the compiler directory suppose it called POSTPROCESSOR and create directory called build then open it in the terminal.
 
 ```shell
 $ cd POSTPROCESSOR
@@ -56,11 +63,6 @@ $ ./postprocessor --android /home/Downloads/test.viw
 ```
 
 # GUI Generation
-
-# Model testing for classification
-<img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
-
-# Postprocessing
 
 # GUI generation
 
