@@ -61,30 +61,54 @@ Image(filename='./results.png', width=1000)  # view results.png
 ```
 <img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
 
-### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
-
-> Example
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+```shell
+print("GROUND TRUTH TRAINING DATA:")
+Image(filename='./test_batch0_gt.jpg', width=900)
 ```
 
 > Model testing for classification
 
 <img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
+
+```shell
+print("GROUND TRUTH AUGMENTED TRAINING DATA:")
+Image(filename='./train_batch2.jpg', width=900)
+```
+
+<img src="https://i.imgur.com/7AZTXWN.jpg" title="Testing Results" alt="Testing Results">
+
+```shell
+!python detect.py --weights weights/last_yolov5x_results.pt --img 640 --conf 0.6 --source zTest/
+```
+
+```shell
+import glob
+from IPython.display import Image, display
+
+for imageName in glob.glob('inference/output/*.jpg'): #assuming JPG
+    display(Image(filename=imageName))
+    print("\n")
+```
+
+<img src="https://i.imgur.com/7qY4auk.jpg" title="Test1" alt="Test1">
+
+<img src="https://i.imgur.com/Rjj0apT.jpg" title="Test2" alt="Test2">
+
+<img src="https://i.imgur.com/NRWGauy.jpg" title="Test3" alt="Test3">
+
+<img src="https://i.imgur.com/34BBoI4.jpg" title="Test4" alt="Test4">
+
+<img src="https://i.imgur.com/s6cAMig.jpg" title="Test5" alt="Test5">
+
+<img src="https://i.imgur.com/zhNcV3h.jpg" title="Test6" alt="Test6">
+
+<img src="https://i.imgur.com/QfZjFr3.jpg" title="Test7" alt="Test7">
+
+<img src="https://i.imgur.com/EiqgZEi.jpg" title="Test8" alt="Test8">
+
+<img src="https://i.imgur.com/hrnGsCE.jpg" title="Test9" alt="Test9">
+
+<img src="https://i.imgur.com/YGAKGAt.jpg" title="Test10" alt="Test10">
 
 ---
 
