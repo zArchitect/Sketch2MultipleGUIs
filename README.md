@@ -15,6 +15,50 @@ The architecture of this project is shown in the following figure.
 
 # Hand-drawn mock-up recognition 
 
+```shell
+!git clone https://github.com/ultralytics/yolov5  # clone repo
+!pip install -qr yolov5/requirements.txt  # install dependencies (ignore errors)
+%cd yolov5
+
+import torch
+from IPython.display import Image, clear_output  # to display images
+from utils.google_utils import gdrive_download  # to download models/datasets
+
+clear_output()
+print('Setup complete. Using torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
+```
+
+```shell
+%cat data.yaml
+```
+
+```shell
+# define number of classes based on YAML
+import yaml
+with open("data.yaml", 'r') as stream:
+    num_classes = str(yaml.safe_load(stream)['nc'])
+```
+
+```shell
+!gdown --id 1czESPsKbOWZF7_PkCcvRfTiUUJfpx12i -O models/yolov5x.yaml
+```
+
+```shell
+%%time
+#%cd /content/yolov5/
+#!python train.py --img 416 --batch 16 --epochs 100 --data '../data.yaml' --cfg ./models/custom_yolov5s.yaml --weights '' --name yolov5s_results --nosave --cache
+!python train.py --img 640 --batch 10 --epochs 200 --data 'data.yaml' --cfg models/yolov5x.yaml --weights 'yolov5x.pt' --name yolov5x_results --nosave --cache
+```
+
+```shell
+%load_ext tensorboard
+%tensorboard --logdir runs
+```
+
+```shell
+rom utils.utils import plot_results; plot_results()  # plot results.txt as results.png
+Image(filename='./results.png', width=1000)  # view results.png
+```
 <img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
 
 ### Step 1
