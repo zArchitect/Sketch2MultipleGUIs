@@ -28,7 +28,7 @@ The architecture of this project is shown in the following figure.
 - **Option 2**
     - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
 
-## Example (Optional)
+> Example
 
 ```javascript
 // code away!
@@ -41,7 +41,7 @@ let generateProject = project => {
 };
 ```
 
-## Model testing for classification
+> Model testing for classification
 
 <img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
 
