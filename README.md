@@ -14,7 +14,30 @@ The architecture of this project is shown in the following figure.
 
 <img src="https://i.imgur.com/A1zPvWz.png" title="Validation Results" alt="Validation Results">
 
-# Model testing for classification
+### Step 1
+
+- **Option 1**
+    - 🍴 Fork this repo!
+
+- **Option 2**
+    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+
+## Example (Optional)
+
+```javascript
+// code away!
+
+let generateProject = project => {
+  let code = [];
+  for (let js = 0; js < project.length; js++) {
+    code.push(js);
+  }
+};
+```
+
+---
+
+## Model testing for classification
 
 <img src="https://i.imgur.com/t1Z25GU.jpg" title="Testing Results" alt="Testing Results">
 
