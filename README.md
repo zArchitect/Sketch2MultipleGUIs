@@ -23,6 +23,7 @@ The postprocessing part is responsible for reading the output files of the recog
 - boost library
 
 > Installation
+
 1- clone the project to your device and unzip it.
 2- open the compiler directory suppose it called EQUALIZER_HOME and create directory called build then open it in the terminal.
 
