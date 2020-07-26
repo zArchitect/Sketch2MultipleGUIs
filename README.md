@@ -26,6 +26,25 @@ The postprocessing part is responsible for reading the output files of the recog
 1- clone the project to your device and unzip it.
 2- open the compiler directory suppose it called EQUALIZER_HOME and create directory called build then open it in the terminal.
 
+```shell
+$ cd POSTPROCESSOR
+$ mkdir build
+$ cd build
+```
+
+3- compile the project and create the executable file
+
+```shell
+$ cmake ..
+$ make
+```
+
+4- open the executable file directory
+
+```shell
+$ cd ..
+$ cd bin
+```
 
 # GUI Generation
 
