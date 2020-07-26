@@ -45,6 +45,13 @@ $ make
 $ cd ..
 $ cd bin
 ```
+> Example
+
+- Lets suppose we have file "/home/Downloads/test.viw" and want to convert it to android json file
+
+```shell
+$ ./postprocessor --android /home/Downloads/test.viw
+```
 
 # GUI Generation
 
