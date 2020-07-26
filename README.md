@@ -1,3 +1,6 @@
+
+<img src="https://i.imgur.com/DZHKnS3.png" title="Sketch2MultipleGUIs" alt="Sketch2MultipleGUIs">
+
 # Sketch2MultipleGUIs
 
 Sketch2MultipleGUIs is a project developed to convert hand-drawn mock-ups to multiple types of real GUIs. The target GUI can be generated for web applications, desktop applications using CSharp, or Android applications. It uses deep learning to detect and recognize hand-drawn mockups based on <a href="https://github.com/ultralytics/yolov5" target="_blank">YOLOv5</a>, then it converts the recognized mock-ups to a real app using the postprocessor and  guigenerator modules. The input is just a captured image of the hand-draw mockups and the output is the corresponding working web/csharp/android GUI.
