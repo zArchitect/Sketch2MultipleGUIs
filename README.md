@@ -18,8 +18,6 @@ The architecture of this project is shown in the following figure.
 
 <img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
 
-<img src="https://i.imgur.com/A1zPvWz.png" title="Validation Results" alt="Validation Results">
-
 ### Step 1
 
 - **Option 1**
