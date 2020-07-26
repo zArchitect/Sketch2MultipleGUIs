@@ -56,7 +56,7 @@ with open("data.yaml", 'r') as stream:
 ```
 
 ```shell
-rom utils.utils import plot_results; plot_results()  # plot results.txt as results.png
+from utils.utils import plot_results; plot_results()  # plot results.txt as results.png
 Image(filename='./results.png', width=1000)  # view results.png
 ```
 <img src="https://i.imgur.com/28SDU9A.png" title="Training Results" alt="Training Results">
